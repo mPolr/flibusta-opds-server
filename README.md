@@ -1,1 +1,1 @@
-flibusta-opds-server
+Flibusta easy OPDS server
