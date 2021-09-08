@@ -1,0 +1,12 @@
+name: default
+kind: pipeline
+type: docker
+
+steps:
+- name: backend
+  image: golang
+  pull: if-not-exists
+  commands:
+    - go get
+    - go build
+    - go test
